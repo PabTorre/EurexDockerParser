@@ -1,0 +1,7 @@
+FROM centos:centos8
+
+COPY . PARSER
+WORKDIR PARSER
+
+
+

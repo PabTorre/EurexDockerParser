@@ -1,0 +1,1 @@
+docker ps |grep parser-box && docker logs -f parser-box
