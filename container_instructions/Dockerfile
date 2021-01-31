@@ -4,4 +4,7 @@ COPY . PARSER
 WORKDIR PARSER
 
 
+RUN dnf -y group install "Development Tools"
+
+
 
