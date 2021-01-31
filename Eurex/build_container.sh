@@ -1,0 +1,1 @@
+docker build -t parser-box -t centos:centos8  .
