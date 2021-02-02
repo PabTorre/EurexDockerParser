@@ -1,12 +1,10 @@
-FROM parser-box:latest
+# Get the GCC preinstalled image from Docker Hub
+FROM gcc:4.9
 
-COPY . PARSER
-WORKDIR PARSER
+COPY . /root/eurex
 
+WORKDIR /root
 
-RUN dnf install -y devtoolset-8-gcc devtoolset-8-gcc-c++
-RUN echo "source scl_source enable devtoolset-8" >> /etc/bashrc
-RUN source /etc/bashrc
-
+RUN cp /root/eurex/apps/libpcap.so.1 /lib/x86_64-linux-gnu/libpcap.so.1
 
 
