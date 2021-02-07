@@ -20,10 +20,10 @@ eurexchange.com/exchange-en/technology/t7/system-documentation/
 
 # Copy the files out of docker
 ##  copy files from docker into the host file system.
-1. exit docker by CTRL+d
+5. exit docker by CTRL+d
 ## run command on host system :
 ### Replace "../data_out/" at the end with the output path on the host system.
-3.  docker cp parser-box:/root/eurex/data/output/ ../data_out/
+6.  docker cp parser-box:/root/eurex/data/output/ ../data_out/
 
 
 
