@@ -9,6 +9,14 @@ eurexchange.com/exchange-en/technology/t7/system-documentation/
 
 ## Instructions
 
+
+You'll need to create 2 folders for data input output in your host system: 
+
+1. C:/data/input 
+2. C:/data/output
+
+Drop the CPAC files that you will to process into the input folder. 
+
 ## Build , prepare and login to docker.
 1. Go to Eurex folder run commands
    1. docker build -t eurex-box .
@@ -20,7 +28,7 @@ eurexchange.com/exchange-en/technology/t7/system-documentation/
 ## run deobi -> will process all files in the data/input folder
    4. . start_deobi.sh
 
-   files are copied to c:/data/output/
+   output files are copied to c:/data/output/
 # Copy the files out of docker
 ##  copy files from docker into the host file system.
 to exit docker use CTRL+d
