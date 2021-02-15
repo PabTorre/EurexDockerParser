@@ -15,7 +15,7 @@ You'll need to create 2 folders for data input output in your host system:
 1. C:/data/input 
 2. C:/data/output
 
-Drop the CPAC files that you will to process into the input folder. 
+Drop the PCAP files that you will to process into the input folder. 
 
 ## Build , prepare and login to docker.
 1. Go to Eurex folder run commands
