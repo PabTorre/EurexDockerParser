@@ -1,8 +1,8 @@
-# ThirdPartyParsers
+# Eurex Eobi parser
 
-Parsers based on third party tools
 
-Such as decoders provided by the exchange.
+Spin up a docker container with Eurex Eobi parser installed. 
+Process CPAC files into csv. 
 
 ### Objective
 
