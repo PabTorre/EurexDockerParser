@@ -2,7 +2,7 @@
 
 
 Spin up a docker container with Eurex Eobi parser installed. 
-Process CPAC files into csv. 
+Process PCAP files into csv. 
 
 ### Objective
 
